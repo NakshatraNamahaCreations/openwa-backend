@@ -68,10 +68,10 @@
     "migration:show:main:prod": "npm run typeorm:prod -- migration:show -d dist/database/data-source-main.js"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.1156.0",
-    "@bull-board/api": "^9.10.5",
-    "@bull-board/express": "^9.10.5",
-    "@bull-board/nestjs": "^9.10.5",
+    "@aws-sdk/client-s3": "^3.1161.0",
+    "@bull-board/api": "^9.11.0",
+    "@bull-board/express": "^9.11.0",
+    "@bull-board/nestjs": "^9.11.0",
     "@modelcontextprotocol/sdk": "^1.32.2",
     "@nestjs/bullmq": "^11.0.5",
     "@nestjs/common": "^11.2.8",
@@ -89,7 +89,7 @@
     "adm-zip": "^0.6.1",
     "audio-decode": "^2.2.3",
     "better-sqlite3": "^13.0.3",
-    "bullmq": "^6.4.2",
+    "bullmq": "^6.5.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.15.1",
     "dockerode": "^5.0.1",
@@ -128,10 +128,10 @@
     "@types/supertest": "^7.2.1",
     "@types/tar-stream": "^3.1.4",
     "concurrently": "^10.0.6",
-    "eslint": "^10.13.0",
+    "eslint": "^10.14.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.5.7",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "jest": "^30.5.2",
     "prettier": "^3.9.10",
     "supertest": "^7.3.1",
@@ -139,7 +139,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.72.0"
+    "typescript-eslint": "^8.72.1"
   },
   "jest": {
     "moduleFileExtensions": [
